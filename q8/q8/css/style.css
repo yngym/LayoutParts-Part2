@@ -1,2 +1,29 @@
 @charset "UTF-8";
 
+/* 回答はここから */
+/* Q8-1 */
+.content{
+ height: 500px;
+}
+
+.background-image {
+  background-image: url(../../image/coffee-background.jpg);
+}
+/* Q8-2 */
+.background-image2 {
+  background-image: url(../../image/coffee-background.jpg);
+  background-repeat: no-repeat;
+}
+/* Q8-3 */
+.background-image3 {
+  background-image: url(../../image/coffee-background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+/* Q8-4 */
+.background-image4 {
+  background-image: url(../../image/coffee-background.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
