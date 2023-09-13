@@ -15,21 +15,18 @@
 }
 
 /* 三角アイコン - 枠線付きの吹き出し */
-.box::before{
+.box::before,.box::after {
   content: '';
   position: absolute;
   left: 27px;
-  bottom: -25px;
-  border-top: 23px solid #815a0a;
   border-right: 23px solid transparent;
   border-left: 23px solid transparent;
 }
+.box::before{
+  bottom: -25px;
+  border-top: 23px solid #815a0a;
+}
 .box::after{
-  content: '';
-  position: absolute;
-  left: 27px;
   bottom: -18px;
   border-top: 23px solid #fad296;
-  border-right: 23px solid transparent;
-  border-left: 23px solid transparent;
 }
